@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864955DE23B226E800930144 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864955DD23B226E800930144 /* CameraViewController.swift */; };
 		866D17B323A91DAA0054F846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866D17B223A91DAA0054F846 /* AppDelegate.swift */; };
 		866D17B523A91DAA0054F846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866D17B423A91DAA0054F846 /* SceneDelegate.swift */; };
-		866D17B723A91DAA0054F846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866D17B623A91DAA0054F846 /* ViewController.swift */; };
+		866D17B723A91DAA0054F846 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866D17B623A91DAA0054F846 /* StartPage.swift */; };
 		866D17BA23A91DAA0054F846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866D17B823A91DAA0054F846 /* Main.storyboard */; };
 		866D17BD23A91DAA0054F846 /* spotter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 866D17BB23A91DAA0054F846 /* spotter.xcdatamodeld */; };
 		866D17BF23A91DAC0054F846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866D17BE23A91DAC0054F846 /* Assets.xcassets */; };
 		866D17C223A91DAC0054F846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866D17C023A91DAC0054F846 /* LaunchScreen.storyboard */; };
+		868102F223B37406000D286B /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 868102F123B37406000D286B /* Inceptionv3.mlmodel */; };
+		86EDA57623ACFA9800361871 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA57523ACFA9800361871 /* SecondPage.swift */; };
+		86EDA57C23AE599B00361871 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA57B23AE599B00361871 /* ItemCell.swift */; };
+		86EDA58023AE654000361871 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDA57F23AE654000361871 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		864955DD23B226E800930144 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		866D17AF23A91DAA0054F846 /* spotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866D17B223A91DAA0054F846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		866D17B423A91DAA0054F846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		866D17B623A91DAA0054F846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		866D17B623A91DAA0054F846 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; usesTabs = 0; };
 		866D17B923A91DAA0054F846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		866D17BC23A91DAA0054F846 /* spotter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = spotter.xcdatamodel; sourceTree = "<group>"; };
 		866D17BE23A91DAC0054F846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		866D17C123A91DAC0054F846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866D17C323A91DAC0054F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868102F123B37406000D286B /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		86EDA57523ACFA9800361871 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		86EDA57B23AE599B00361871 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		86EDA57F23AE654000361871 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +69,17 @@
 			isa = PBXGroup;
 			children = (
 				866D17B223A91DAA0054F846 /* AppDelegate.swift */,
+				86EDA57B23AE599B00361871 /* ItemCell.swift */,
 				866D17B423A91DAA0054F846 /* SceneDelegate.swift */,
-				866D17B623A91DAA0054F846 /* ViewController.swift */,
+				866D17B623A91DAA0054F846 /* StartPage.swift */,
+				86EDA57523ACFA9800361871 /* SecondPage.swift */,
+				864955DD23B226E800930144 /* CameraViewController.swift */,
 				866D17B823A91DAA0054F846 /* Main.storyboard */,
+				86EDA57F23AE654000361871 /* HeaderView.swift */,
 				866D17BE23A91DAC0054F846 /* Assets.xcassets */,
 				866D17C023A91DAC0054F846 /* LaunchScreen.storyboard */,
 				866D17C323A91DAC0054F846 /* Info.plist */,
+				868102F123B37406000D286B /* Inceptionv3.mlmodel */,
 				866D17BB23A91DAA0054F846 /* spotter.xcdatamodeld */,
 			);
 			path = spotter;
@@ -141,10 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866D17B723A91DAA0054F846 /* ViewController.swift in Sources */,
+				866D17B723A91DAA0054F846 /* StartPage.swift in Sources */,
+				868102F223B37406000D286B /* Inceptionv3.mlmodel in Sources */,
+				86EDA57623ACFA9800361871 /* SecondPage.swift in Sources */,
+				86EDA57C23AE599B00361871 /* ItemCell.swift in Sources */,
 				866D17BD23A91DAA0054F846 /* spotter.xcdatamodeld in Sources */,
 				866D17B323A91DAA0054F846 /* AppDelegate.swift in Sources */,
+				864955DE23B226E800930144 /* CameraViewController.swift in Sources */,
 				866D17B523A91DAA0054F846 /* SceneDelegate.swift in Sources */,
+				86EDA58023AE654000361871 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
