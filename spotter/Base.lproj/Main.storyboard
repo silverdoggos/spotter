@@ -234,30 +234,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0c0-ia-gg7">
-                                <rect key="frame" x="0.0" y="208" width="414" height="605"/>
+                                <rect key="frame" x="10" y="208" width="394" height="605"/>
                             </imageView>
                             <view contentMode="scaleToFill" restorationIdentifier="goToCamera" translatesAutoresizingMaskIntoConstraints="NO" id="Glc-g2-zH1" userLabel="LABELView">
-                                <rect key="frame" x="0.0" y="88" width="414" height="120"/>
+                                <rect key="frame" x="10" y="88" width="394" height="120"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vc-v9-tCO">
-                                        <rect key="frame" x="20" y="20" width="374" height="80"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
+                                        <rect key="frame" x="197" y="60" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="33"/>
                                         <color key="textColor" red="0.94117647059999998" green="0.57647058819999997" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40784313729999999" green="0.42745098040000001" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Vc-v9-tCO" secondAttribute="trailing" id="4Jp-JD-GVt"/>
-                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="leading" secondItem="Glc-g2-zH1" secondAttribute="leading" constant="20" id="T24-K6-yZT"/>
-                                    <constraint firstAttribute="bottom" secondItem="6Vc-v9-tCO" secondAttribute="bottom" constant="20" id="Yl0-GP-gDH"/>
-                                    <constraint firstAttribute="trailing" secondItem="6Vc-v9-tCO" secondAttribute="trailing" constant="20" id="ZUd-aL-pYR"/>
-                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Glc-g2-zH1" secondAttribute="leading" id="kRx-3N-UOv"/>
-                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="top" secondItem="Glc-g2-zH1" secondAttribute="top" constant="20" id="oBh-zF-DL4"/>
-                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="top" secondItem="Glc-g2-zH1" secondAttribute="top" constant="20" id="oNT-eU-CQD"/>
-                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="centerY" secondItem="Glc-g2-zH1" secondAttribute="centerY" id="uY0-Je-Q62"/>
-                                    <constraint firstAttribute="bottom" secondItem="6Vc-v9-tCO" secondAttribute="bottom" constant="20" id="xIJ-N5-cpb"/>
-                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="centerX" secondItem="Glc-g2-zH1" secondAttribute="centerX" id="zTa-64-F5R"/>
+                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="centerY" secondItem="Glc-g2-zH1" secondAttribute="centerY" id="pDH-sw-KQg"/>
+                                    <constraint firstItem="6Vc-v9-tCO" firstAttribute="centerX" secondItem="Glc-g2-zH1" secondAttribute="centerX" id="rHO-Wa-Paa"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewo-nz-lj5">
@@ -278,16 +270,16 @@
                         <color key="backgroundColor" red="0.40784313729999999" green="0.42745098040000001" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Ewo-nz-lj5" firstAttribute="trailing" secondItem="Bxa-hV-kmg" secondAttribute="trailing" id="2bI-LP-Via"/>
-                            <constraint firstAttribute="trailing" secondItem="Glc-g2-zH1" secondAttribute="trailing" id="3EC-bB-hPJ"/>
                             <constraint firstItem="0c0-ia-gg7" firstAttribute="top" secondItem="Glc-g2-zH1" secondAttribute="bottom" id="8tT-vc-RHf"/>
                             <constraint firstItem="Glc-g2-zH1" firstAttribute="top" secondItem="Bxa-hV-kmg" secondAttribute="top" id="Gje-Qv-zo1"/>
+                            <constraint firstItem="Glc-g2-zH1" firstAttribute="leading" secondItem="Bxa-hV-kmg" secondAttribute="leading" constant="10" id="HNY-6N-eix"/>
                             <constraint firstAttribute="bottom" secondItem="Glc-g2-zH1" secondAttribute="bottom" constant="688" id="UT5-Jn-D3B"/>
                             <constraint firstItem="0c0-ia-gg7" firstAttribute="bottom" secondItem="Bxa-hV-kmg" secondAttribute="bottom" id="V7z-9C-ZWp"/>
                             <constraint firstItem="Glc-g2-zH1" firstAttribute="trailing" secondItem="0c0-ia-gg7" secondAttribute="trailing" id="bUO-1q-gjG"/>
                             <constraint firstItem="Glc-g2-zH1" firstAttribute="leading" secondItem="0c0-ia-gg7" secondAttribute="leading" id="bYM-B0-A3B"/>
                             <constraint firstItem="Ewo-nz-lj5" firstAttribute="bottom" secondItem="Bxa-hV-kmg" secondAttribute="bottom" id="gsk-ZA-jAn"/>
                             <constraint firstItem="Ewo-nz-lj5" firstAttribute="leading" secondItem="Bxa-hV-kmg" secondAttribute="leading" id="sDz-zB-rf0"/>
-                            <constraint firstItem="Glc-g2-zH1" firstAttribute="leading" secondItem="kaX-29-LTl" secondAttribute="leading" id="uhk-25-du8"/>
+                            <constraint firstAttribute="trailing" secondItem="Glc-g2-zH1" secondAttribute="trailing" constant="10" id="tQH-zo-n1p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bxa-hV-kmg"/>
                     </view>
